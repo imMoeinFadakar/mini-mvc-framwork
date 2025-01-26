@@ -1,0 +1,16 @@
+{
+    "name": "roocket/pocket-core",
+    "description": "this is my framework core",
+    "autoload": {
+        "psr-4": {
+            "Roocket\\PocketCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hesam Mousavi",
+            "email": "hesammoousavi@gmail.com"
+        }
+    ],
+    "require": {}
+}

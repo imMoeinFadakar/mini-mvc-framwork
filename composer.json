@@ -1,0 +1,28 @@
+{
+    "name": "hesam/pocket-project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+           "App\\" : "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hesam Mousavi",
+            "email": "hesammoousavi@gmail.com"
+        }
+    ],
+    "require": {
+        "roocket/pocket-core" : "dev-main",
+        "rakit/validation": "^1.4",
+        "jenssegers/blade": "^1.4",
+        "ext-pdo" : "*"
+
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url" : "pocket"
+        }
+    ]
+}
